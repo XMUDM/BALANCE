@@ -1,8 +1,10 @@
-# BALANCE: Boosting Index Advisor Learning with Multi-Source Workload Knowledge
+# BALANCE
+Boosting Index Advisor Learning with Multi-Source Workload Knowledge
 
-.
+### Code structure
+```
 │  box_line.pickle      # Predicate value box
-│  main_PTF.py          # Main process file
+│  main.py          # Main process file
 │  README.md            # Code documentation
 │  requirements.txt     # Experimental
 │
@@ -58,5 +60,11 @@
 └─stable_baselines            # Reinforcement learning Toolkit
    └─ ppo2            
            ppo2_PTF_w.py
+```
+### Example workflow
 
-
+```
+pip install -r requirements.txt         # Install requirements with pip
+python main.py                          # Run a experiment
+```
+Experiments can be controlled with the **./experiments/tpch.json** file. For descriptions of the components and functioning, consult our paper.
