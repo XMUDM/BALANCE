@@ -4,7 +4,7 @@ Boosting Index Advisor Learning with Multi-Source Workload Knowledge
 ### Code structure
 ```
 │  box_line.pickle      # Predicate value box
-│  main.py          # Main process file
+│  main.py              # Main process file
 │  README.md            # Code documentation
 │  requirements.txt     # Experimental
 │
