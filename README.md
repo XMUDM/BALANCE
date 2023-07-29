@@ -37,8 +37,8 @@ Boosting Index Advisor Learning with Multi-Source Workload Knowledge
 │  │
 │  └─workloads            # workloads on TPCH
 │      └─gen_tpch
-│              train_workloads1.pickle
-│              train_workloads1_value.pickle
+│              train_workloads1.pickle            # workloads on TPCH (without predicate value changes)
+│              train_workloads1_value.pickle      # workloads on TPCH (with predicate value changes)
 │
 ├─gym_db
 │  │  common.py
