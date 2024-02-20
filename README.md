@@ -26,19 +26,19 @@ Boosting Index Advisor Learning with Multi-Source Workload Knowledge
 │      tpch.json          # setting files on TPCH
 │
 ├─experiment_results
-│  ├─cl_save              # cl model 
+│  ├─cl_save              # cl model (Depends on your settings)
 │  │  └─gen_model
 │  │          boo_bao_nosame_f_v.pth  
 │  │
-│  ├─source               # transfer sources
+│  ├─source               # transfer sources (Depends on your settings)
 │  │      f_s1.zip
 │  │      f_s2.zip
 │  │      f_s3.zip
 │  │
-│  └─workloads            # workloads on TPCH
+│  └─workloads            # workloads on TPCH (Depends on your settings)
 │      └─gen_tpch
-│              train_workloads1.pickle            # workloads on TPCH (without predicate value changes)
-│              train_workloads1_value.pickle      # workloads on TPCH (with predicate value changes)
+│              train_workloads1.pickle            
+│              train_workloads1_value.pickle      
 │
 ├─gym_db
 │  │  common.py
