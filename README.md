@@ -1,6 +1,7 @@
 # BALANCE
 Boosting Index Advisor Learning with Multi-Source Workload Knowledge
-
+![Framework overview of BALANCE](image.png)
+Above is the overall architecture of BALANCE, and the code runs on Postgresql 12.5.
 ### Code structure
 ```
 │  box_line.pickle      # Predicate value box
@@ -26,16 +27,16 @@ Boosting Index Advisor Learning with Multi-Source Workload Knowledge
 │      tpch.json          # setting files on TPCH
 │
 ├─experiment_results
-│  ├─cl_save              # cl model (Depends on your settings)
+│  ├─cl_save              # cl model 
 │  │  └─gen_model
 │  │          boo_bao_nosame_f_v.pth  
 │  │
-│  ├─source               # transfer sources (Depends on your settings)
+│  ├─source               # transfer sources 
 │  │      f_s1.zip
 │  │      f_s2.zip
 │  │      f_s3.zip
 │  │
-│  └─workloads            # workloads on TPCH (Depends on your settings)
+│  └─workloads            # workloads on TPCH 
 │      └─gen_tpch
 │              train_workloads1.pickle            
 │              train_workloads1_value.pickle      
