@@ -1,6 +1,8 @@
 # BALANCE
 Boosting Index Advisor Learning with Multi-Source Workload Knowledge
-![Framework overview of BALANCE](image.png)
+
+![Framework overview of BALANCE](./image.png)
+
 Above is the overall architecture of BALANCE, and the code runs on Postgresql 12.5.
 ### Code structure
 ```
